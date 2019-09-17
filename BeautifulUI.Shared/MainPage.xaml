@@ -7,7 +7,24 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="Hello, world 2!" Margin="20" FontSize="30" />
+    <Grid x:Name="Root"	Background="White">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="Title"
+                   Text="Hello, UnoConf!"
+				   FontWeight="Bold"/>
+            <TextBlock x:Name="Description"
+				   Text="UnoConf is a gathering point for the complete Uno community - Engineering team, Code Contributors as well as those wishing to learn more about Uno Platform. It will feature world-renowned speakers and attendees interested in learning about the Uno Platform, WebAssembly, Desktop/WinUI and Mobile cross-platform development."
+				   TextWrapping="Wrap"
+				   Grid.Row="1"/>
+        </Grid>
+        <TextBlock x:Name="State"
+                   Text="Default"
+                   FontSize="30"
+                   VerticalAlignment="Bottom"/>
     </Grid>
 </Page>
+

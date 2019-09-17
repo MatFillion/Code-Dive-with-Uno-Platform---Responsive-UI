@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautifulUI.UWP", "Beautifu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautifulUI.Wasm", "BeautifulUI.Wasm\BeautifulUI.Wasm.csproj", "{71C8C484-63CF-446E-8F03-2FFAF36FD703}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{A79E3CB2-B154-46C8-9FF7-FA3DED89D27C}"
+	ProjectSection(SolutionItems) = preProject
+		snippet.snippet = snippet.snippet
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BeautifulUI.Shared\BeautifulUI.Shared.projitems*{20dd3869-c95b-4516-995c-a1031bbcf20a}*SharedItemsImports = 4
