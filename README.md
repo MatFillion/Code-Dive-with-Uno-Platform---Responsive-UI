@@ -5,5 +5,7 @@ You'll find:
 * Powerpoint file
 * Solution to run the simple demo
 * snippets used (you'll need to import them) (see snippet.snippet)
-* for the uado demo (Real-world example), see the [uado repo](https://github.com/unoplatform/uado)
+
+## More info
+For the uado demo (Real-world example), see the [uado repo](https://github.com/unoplatform/uado)
 
